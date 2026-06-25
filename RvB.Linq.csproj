@@ -4,11 +4,24 @@
 		<TargetFrameworks>net10.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Title>Linq replacement based on ref structs</Title>
+		<Authors>rvanbelkum</Authors>
+		<Description>Linq replacement based on ref structs</Description>
+		<PackageProjectUrl>https://github.com/rvanbelkum/RvB.Linq</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rvanbelkum/RvB.Linq</RepositoryUrl>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://licenses.nuget.org/MIT</PackageProjectUrl>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove=".gitattributes" />
-	  <None Remove=".gitignore" />
+		<None Remove=".gitattributes" />
+		<None Remove=".gitignore" />
+		<None Include="readme.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
