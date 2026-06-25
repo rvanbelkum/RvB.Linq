@@ -14,8 +14,9 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://licenses.nuget.org/MIT</PackageProjectUrl>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
-		<AssemblyVersion>1.0.0.1</AssemblyVersion>
-		<FileVersion>1.0.0.1</FileVersion>
+		<PackageVersion>1.0.1</PackageVersion>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
